@@ -1,0 +1,265 @@
+/* ESTILO GERAL */
+
+body {
+    background-image: url(ativos/back-body.jpg);
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    margin: 0;
+}
+
+ul {
+    margin-left: 200px;
+    display: inline;
+    float: right;
+    margin: 45px 40px 45px 25px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    padding-left: 30px;
+}
+
+a {
+    color: white;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 26px;
+    text-align: center;
+
+}
+
+h2 {
+    color: white;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+    text-shadow: 2px 2px black;
+}
+
+/* CABEÇALHO */
+.header01 {
+    background-color: black;
+    width: 1000px;
+    height: 120px;
+    margin: auto;
+    margin-bottom: 20px;
+    border: solid 2px white;
+    border-top: none;
+    border-radius: 0px 0px 30px 30px;
+}
+
+#logo {
+    display: inline-block;
+    height: 100px;
+    margin-left: 30px;
+    padding-top: 10px;
+}
+
+
+/* CARD */
+
+.card {
+    margin: auto;
+    max-width: 1000px;
+    min-width: 400px;
+    max-height: 700px;
+    min-height: 300px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+}
+
+#avatar {
+    display: inline-block;
+    width: 300px;
+    margin-left: 80px;
+    filter: drop-shadow(2px 2px 2px #000000);
+}
+
+.ola {
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: block;
+    float: right;
+    height: 200px;
+    width: 550px;
+    margin: 50px 60px 50px 0px;
+    text-shadow: 2px 2px black;
+}
+
+#sobre {
+    text-align: justify;
+    font-size: 18px;
+    font-weight: bolder;
+
+}
+
+/* HABILIDADES */
+
+.skills {
+    background-image: linear-gradient(to top, #2b2b2b, #2b2b2b, #444444);
+    height: 370px;
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 50px;
+    border: solid 2px #444444;
+}
+
+
+
+.sub-skills {
+    margin: auto;
+    width: 850px;
+}
+
+.html-div,
+.css-div,
+.js-div {
+    display: inline-block;
+    margin: 0px 40px;
+    height: 260px;
+    width: 200px;
+    color: white;
+    text-shadow: 2px 2px black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#html-p,
+#css-p,
+#js-p {
+    position: relative;
+    top: 15px;
+    margin: 0;
+    display: inline-block;
+    text-shadow: 2px 2px 2px 2px black;
+}
+
+#html-icon,
+#css-icon,
+#js-icon {
+    width: 200px;
+    filter: drop-shadow(5px 5px 5px #000000);
+
+}
+
+#js-icon {
+    position: relative;
+    bottom: 2px;
+}
+
+#verificado01,
+#verificado02,
+#verificado03 {
+    width: 46px;
+    position: relative;
+    bottom: 25px;
+    filter: drop-shadow(5px 5px 5px #000000);
+}
+
+/* RODAPÉ */
+
+.contacts {
+    background-color: black;
+    width: 1000px;
+    height: 140px;
+    margin: auto;
+    margin-top: 20px;
+    border: solid 2px white;
+    border-bottom: none;
+    border-radius: 50px 50px 0px 0px;
+}
+
+#contact-container {
+    margin: auto;
+    width: 850px;
+    margin-bottom: 50PX;
+    text-align: center;
+
+}
+
+.icon-contact {
+    width: 30px;
+    position: relative;
+    top: 9px;
+}
+
+.link-contact {
+    font-size: 22px;
+}
+
+#linkedin,
+#github,
+#whatsapp {
+    display: inline-block;
+    margin: 0px 30px;
+
+}
+
+a:hover {
+    text-decoration: underline;
+
+}
+
+.marca {
+    color: #444444;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+
+/*PAGINA DE TRABALHO*/
+
+.works {
+
+    margin: auto;
+    max-width: 1000px;
+    min-width: 400px;
+    max-height: 700px;
+    min-height: 300px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+#avatar-breve {
+    width: 200px;
+    display: block;
+    margin: auto;
+    filter: drop-shadow(2px 2px 2px #000000);
+
+}
+
+#ola-works{
+    margin-bottom: 0;
+}
+
+#ola-sobre{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 20px 0 25px 0;
+
+
+}
