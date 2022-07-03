@@ -9,21 +9,6 @@ body {
     margin: 0;
 }
 
-ul {
-    margin-left: 200px;
-    display: inline;
-    float: right;
-    margin: 45px 40px 45px 25px;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-li {
-    list-style: none;
-    display: inline;
-    padding-left: 30px;
-}
-
 a {
     color: white;
     font-size: 22px;
@@ -50,8 +35,8 @@ h2 {
 /* CABEÇALHO */
 .header01 {
     background-color: black;
-    width: 1000px;
-    height: 120px;
+    max-width: 1000px;
+    min-height: 120px;
     margin: auto;
     margin-bottom: 20px;
     border: solid 2px white;
@@ -66,6 +51,13 @@ h2 {
     padding-top: 10px;
 }
 
+#trabalhos,
+#inicio {
+    float: right;
+    margin: 50px 30px;
+
+}
+
 
 /* CARD */
 
@@ -74,7 +66,7 @@ h2 {
     max-width: 1000px;
     min-width: 400px;
     max-height: 700px;
-    min-height: 300px;
+    min-height: 200px;
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -113,7 +105,7 @@ h2 {
 .skills {
     background-image: linear-gradient(to top, #2b2b2b, #2b2b2b, #444444);
     height: 370px;
-    width: 1000px;
+    max-width: 1000px;
     margin: auto;
     margin-top: 20px;
     border-radius: 50px;
@@ -124,7 +116,7 @@ h2 {
 
 .sub-skills {
     margin: auto;
-    width: 850px;
+    max-width: 850px;
 }
 
 .html-div,
@@ -178,8 +170,8 @@ h2 {
 
 .contacts {
     background-color: black;
-    width: 1000px;
-    height: 140px;
+    max-width: 1000px;
+    min-height: 140px;
     margin: auto;
     margin-top: 20px;
     border: solid 2px white;
@@ -189,10 +181,9 @@ h2 {
 
 #contact-container {
     margin: auto;
-    width: 850px;
+    max-width: 850px;
     margin-bottom: 50PX;
     text-align: center;
-
 }
 
 .icon-contact {
@@ -230,7 +221,7 @@ a:hover {
 
     margin: auto;
     max-width: 1000px;
-    min-width: 400px;
+    min-width: 300px;
     max-height: 700px;
     min-height: 300px;
     background: rgba(255, 255, 255, 0.1);
@@ -251,15 +242,46 @@ a:hover {
 
 }
 
-#ola-works{
+#ola-works {
     margin-bottom: 0;
 }
 
-#ola-sobre{
+#ola-sobre {
     text-align: center;
     font-size: 20px;
     font-weight: bolder;
     margin: 20px 0 25px 0;
+
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .header01 {
+        margin: auto;
+        min-height: 200px;
+        border-radius: 0;
+
+    }
+
+    #logo {
+        display: block;
+        margin: auto;
+        padding: 20px 0;
+        height: 100px;
+        border-bottom: solid 2px red;
+    }
+
+    #trabalhos,
+    #inicio {
+        margin: 20px auto;
+        padding: 15px;
+        width: 200px;
+        float: none;
+        display: block;
+        text-align: center;
+        border: solid 2px white;
+    }
 
 
 }
