@@ -1,128 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Site</title>
+    <title>Meu site</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="ativos/eu.ico">
 </head>
 
 <body>
-    <header>
-        <div class="header01">
-            <img id="logo" src="./ativos/logo.png" alt="Logo">
-
-            <a id="trabalhos" href="trabalhos.html">MEUS TRABALHOS</a>
-
-        
-        </div>
-
-        <div class="card">
-
-            <img id="avatar" src="./ativos/avatar-note.png" alt="Meu Avatar">
-
-            <div class="ola">
-
-                <h1>OLÁ, SEJA BEM VINDO(A) AO MEU SITE!</h1>
-
-                <P id="sobre"> Eu sou o Daniel Perfeito (e sim, "Perfeito" é o meu sobrenome kkk). Sou um jovem
-                    desenvolvedor front end e criei está Página Web para divulgar um pouco do meu trabalho.Também sou
-                    estudante e amante da Tecnologia da Informação. Espero que goste dos meu projétos, é um prazer ter
-                    você por aqui!</P>
-            </div>
-
-        </div>
+    <header class="cabeçalho">
+        <img id="logo" src="ativos/logo.png" alt="Logo">
     </header>
 
-    <section>
-        <div class="skills">
-            <br>
-            <div class="sub-skills">
+    <main>
+        <!--APRESENTAÇÃO-->
+        <section class="apresentação">
 
-                <h2>MINHAS HABILIDADES</h2>
+            <img id="avatar" src="ativos/avatar-note.png" alt="avatar">
 
-                <div class="html-div">
+            <div class="sinopse">
+                <h1>OLÁ, SEJA BEM VINDO(A) AO MEU SITE!</h1>
 
-                    <p id="html-p">HTML</p>
-
-                    <img id="html-icon" src="./ativos/html-5-500.png" alt="Logo HTML5">
-
-                    <img id="verificado01" src="./ativos/verificado-96.png" alt="">
-
-                </div>
-
-                <div class="css-div">
-
-                    <p id="css-p">CSS</p>
-
-                    <img id="css-icon" src="./ativos/css3-500.png" alt="">
-
-                    <img id="verificado02" src="./ativos/verificado-96.png" alt="">
-
-                </div>
-
-                <div class="js-div">
-
-                    <p id="js-p">JavaScript</p>
-
-                    <img id="js-icon" src="./ativos/javascript-500.png" alt="">
-
-                    <img id="verificado03" src="./ativos/em-andamento-96.png" alt="">
-
-                </div>
-
+                <p>Eu sou o Daniel Perfeito (e sim, "Perfeito" é o meu sobrenome kkk). Sou um jovem
+                    desenvolvedor front-end e estudante da Tecnologia da Informação. Estou criando esta Página Web para
+                    mostrar um pouco do meu trabalho e evolução no aprendizado. Espero que goste dos meu projétos, é um
+                    prazer ter
+                    você por aqui!</p>
             </div>
-        </div>
-    </section>
+        </section>
 
+        <!--HABILIDADES-->
+        <section class="habilidades">
+            <h2>TECNOLOGIAS QUE UTILIZO ATUALMENTE</h2>
 
-
-    <footer>
-        <div class="contacts">
-
-            <br>
-
-            <h2>CONTATOS:</h2>
-
-            <div id="contact-container">
-
-                <div id="linkedin">
-                    <a href="https://www.linkedin.com/in/danielperfeito-/" target="_blank"><img class="icon-contact"
-                            src="ativos/icons8-linkedin-100.png" alt="Icone Linkedin"></a>
-
-                    <a href="https://www.linkedin.com/in/danielperfeito-/" class="link-contact"
-                        target="_blank">/DANIELPERFEITO-</a>
-                </div>
-
-                <div id="github">
-                    <a href="https://github.com/DanielPerfeito" target="_blank"><img class="icon-contact"
-                            src="ativos/icons8-github-100.png" alt="Icone Github"></a>
-
-                    <a href="https://github.com/DanielPerfeito" class="link-contact" target="_blank">/DANIELPERFEITO</a>
-                </div>
-
-                <div id="whatsapp">
-                    <a href="#"><img class="icon-contact" src="ativos/icons8-whatsapp-100.png" alt="icoe"></a>
-
-                    <a href="#" class="link-contact">(21)99405-1708</a>
-                </div>
-
-                <div class="marca">
-                    &#169; 2022 Daniel Perfeito
-                </div>
-
-
-
+            <div class="tecnologia">
+                <h3 class="h3habilidades">HTML</h3>
+                <img class="icone-tec" src="ativos/html-5-500.png" alt="Icone HTML">
+                <img Class="icone-check"src="ativos/verificado-96.png" alt="">
+            </div><div class="tecnologia">
+                <h3 class="h3habilidades">CSS</h3>
+                <img class="icone-tec" src="ativos/css3-500.png" alt="Icone CSS">
+                <img Class="icone-check"src="ativos/verificado-96.png" alt="">
+            </div><div class="tecnologia">
+                <h3 class="h3habilidades">JavaScript</h3>
+                <img class="icone-tec" src="ativos/javascript-500.png" alt="Java JavaScript">
+                <img Class="icone-check" src="ativos/em-andamento-96.png" alt="">
             </div>
+        </section>
 
-
-
-        </div>
-    </footer>
-
+        <!--TRABALHOS-->
+    </main>
 
 </body>
 

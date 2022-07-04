@@ -1,287 +1,204 @@
-/* ESTILO GERAL */
+/*GERAIS =======================================================*/
 
-body {
+body{
+    background-color: grey;
     background-image: url(ativos/back-body.jpg);
-
     background-repeat: no-repeat;
-
     background-size: cover;
-    margin: 0;
+   
 }
 
-a {
-    color: white;
-    font-size: 22px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bolder;
-    text-decoration: none;
-}
-
-h1 {
-    font-size: 26px;
+h1, h2, h3{
     text-align: center;
-
 }
 
-h2 {
-    color: white;
+h2{
     font-size: 22px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    margin: 0px 0px 20px 0px;
-    text-shadow: 2px 2px black;
 }
 
-/* CABEÇALHO */
-.header01 {
+/*CABEÇALHO ====================================================*/
+
+header{
+    margin: auto;
     background-color: black;
     max-width: 1000px;
-    min-height: 120px;
-    margin: auto;
-    margin-bottom: 20px;
-    border: solid 2px white;
-    border-top: none;
-    border-radius: 0px 0px 30px 30px;
+    min-width: 280px;  
 }
 
-#logo {
-    display: inline-block;
-    height: 100px;
-    margin-left: 30px;
-    padding-top: 10px;
-}
-
-#trabalhos,
-#inicio {
-    float: right;
-    margin: 50px 30px;
-
-}
-
-
-/* CARD */
-
-.card {
-    margin: auto;
-    max-width: 1000px;
-    min-width: 400px;
-    max-height: 700px;
-    min-height: 200px;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 50px;
-}
-
-#avatar {
-    display: inline-block;
-    width: 300px;
-    margin-left: 80px;
-    filter: drop-shadow(2px 2px 2px #000000);
-}
-
-.ola {
-
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    display: block;
-    float: right;
-    height: 200px;
-    width: 550px;
-    margin: 50px 60px 50px 0px;
-    text-shadow: 2px 2px black;
-}
-
-#sobre {
-    text-align: justify;
-    font-size: 18px;
-    font-weight: bolder;
-
-}
-
-/* HABILIDADES */
-
-.skills {
-    background-image: linear-gradient(to top, #2b2b2b, #2b2b2b, #444444);
-    height: 370px;
-    max-width: 1000px;
-    margin: auto;
-    margin-top: 20px;
-    border-radius: 50px;
-    border: solid 2px #444444;
-}
-
-
-
-.sub-skills {
-    margin: auto;
-    max-width: 850px;
-}
-
-.html-div,
-.css-div,
-.js-div {
-    display: inline-block;
-    margin: 0px 40px;
-    height: 260px;
-    width: 200px;
-    color: white;
-    text-shadow: 2px 2px black;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 26px;
-    font-weight: bolder;
-    text-align: center;
-}
-
-#html-p,
-#css-p,
-#js-p {
-    position: relative;
-    top: 15px;
-    margin: 0;
-    display: inline-block;
-    text-shadow: 2px 2px 2px 2px black;
-}
-
-#html-icon,
-#css-icon,
-#js-icon {
-    width: 200px;
-    filter: drop-shadow(5px 5px 5px #000000);
-
-}
-
-#js-icon {
-    position: relative;
-    bottom: 2px;
-}
-
-#verificado01,
-#verificado02,
-#verificado03 {
-    width: 46px;
-    position: relative;
-    bottom: 25px;
-    filter: drop-shadow(5px 5px 5px #000000);
-}
-
-/* RODAPÉ */
-
-.contacts {
-    background-color: black;
-    max-width: 1000px;
-    min-height: 140px;
-    margin: auto;
-    margin-top: 20px;
-    border: solid 2px white;
-    border-bottom: none;
-    border-radius: 50px 50px 0px 0px;
-}
-
-#contact-container {
-    margin: auto;
-    max-width: 850px;
-    margin-bottom: 50PX;
-    text-align: center;
-}
-
-.icon-contact {
-    width: 30px;
-    position: relative;
-    top: 9px;
-}
-
-.link-contact {
-    font-size: 22px;
-}
-
-#linkedin,
-#github,
-#whatsapp {
-    display: inline-block;
-    margin: 0px 30px;
-
-}
-
-a:hover {
-    text-decoration: underline;
-
-}
-
-.marca {
-    color: #444444;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 15px;
-}
-
-/*PAGINA DE TRABALHO*/
-
-.works {
-
-    margin: auto;
-    max-width: 1000px;
-    min-width: 300px;
-    max-height: 700px;
-    min-height: 300px;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    text-shadow: 2px 2px black;
-}
-
-#avatar-breve {
-    width: 200px;
+#logo{
     display: block;
     margin: auto;
-    filter: drop-shadow(2px 2px 2px #000000);
-
+    width: 50%;
+    padding: 20px;
 }
 
-#ola-works {
+/*CORPO ========================================================*/
+
+main{
+    margin: auto;
+    background-color: white;
+    max-width: 1000px;
+    min-width: 280px;
+    box-sizing: border-box;
+}
+
+/*Apresentação*/
+
+.apresentação{
+    padding: 15px;
+}
+
+#avatar{
+    width: 30%;
+}
+
+.sinopse{
+    margin-top: 20px;
+    padding: 20px;
+    display: inline;
+    width: 70%;
+    float: right;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    box-sizing: border-box;
+}
+
+p{
+    font-size: 20px;
     margin-bottom: 0;
 }
 
-#ola-sobre {
-    text-align: center;
-    font-size: 20px;
+/*habilidades*/
+
+.habilidades{
+    background-color: #444444;
+    color: white;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    margin: 20px 0 25px 0;
-
-
 }
 
-@media screen and (max-width: 700px) {
+.tecnologia{
+    
+    width: 33.3%;
+    display: inline-block;
+    
+}
 
-    .header01 {
-        margin: auto;
-        min-height: 200px;
-        border-radius: 0;
+.h3habilidades{
+    margin: 0%;
+    font-size: 30px;
+    position: relative;
+    top: 20px;
+}
 
-    }
+.icone-tec{
+    width: 70%;
+    display: block;
+    margin: auto;
+   
+}
 
-    #logo {
+.icone-check{
+    width: 20%;
+    display: block;
+    margin: auto;
+    position: relative;
+    bottom: 20px;
+    
+}
+
+/*MEDIAS =====================================================*/
+
+@media screen and (max-width: 1000px){
+
+    #avatar{
+        width: 30%;
         display: block;
-        margin: auto;
-        padding: 20px 0;
-        height: 100px;
-        border-bottom: solid 2px red;
-    }
-
-    #trabalhos,
-    #inicio {
-        margin: 20px auto;
-        padding: 15px;
-        width: 200px;
         float: none;
-        display: block;
-        text-align: center;
-        border: solid 2px white;
+        margin: auto;
     }
 
+    .sinopse{
+        float: none;
+        text-align: center;  
+    }
 
+    .h3habilidades{
+    font-size: 25px; 
+}
+
+@media screen and (max-width: 800px){
+
+    .apresentação{
+        padding: 15PX;
+    }
+
+    #avatar{
+        width: 30%;
+        display: block;
+        float: none;
+        margin: auto;
+    }
+
+    .sinopse{
+        float: none;
+        text-align: center;  
+    }
+
+    h1{
+        margin: 0%;
+    }
+
+    .h3habilidades{
+        font-size: 20px;
+        position: relative;
+        top: 10px;
+    }
+
+    .icone-check{
+        width: 20%;
+        position: relative;
+        bottom: 10px;
+        
+    }
+    
+}
+
+@media screen and (max-width: 500px){
+
+    #logo{
+        width: 70%;
+    }
+
+    #avatar{
+        width: 60%;
+    }
+    
+    h1{
+        font-size: 20px;
+    }
+
+    h2{
+        font-size: 18px;
+    }
+
+    p{
+        font-size: 17px;
+    }
+
+    .tecnologia{
+        display: block;
+        margin: 0 auto 5px;
+    }
+
+    .h3habilidades{
+        font-size: 15px;
+    }
+
+    .icone-tec{
+        width: 100%;
+       
+    }
 }
