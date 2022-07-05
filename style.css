@@ -1,31 +1,40 @@
 /*GERAIS =======================================================*/
 
-body{
+body {
     background-color: grey;
     background-image: url(ativos/back-body.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-   
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    
 }
 
-h1, h2, h3{
+h1,
+h2,
+h3 {
     text-align: center;
 }
 
-h2{
+h2 {
     font-size: 22px;
+
+}
+
+p {
+    font-size: 20px;
 }
 
 /*CABEÇALHO ====================================================*/
 
-header{
+header {
     margin: auto;
     background-color: black;
     max-width: 1000px;
-    min-width: 280px;  
+    min-width: 280px;
 }
 
-#logo{
+#logo {
     display: block;
     margin: auto;
     width: 50%;
@@ -34,7 +43,7 @@ header{
 
 /*CORPO ========================================================*/
 
-main{
+main {
     margin: auto;
     background-color: white;
     max-width: 1000px;
@@ -44,161 +53,174 @@ main{
 
 /*Apresentação*/
 
-.apresentação{
+.apresentação {
     padding: 15px;
 }
 
-#avatar{
+#avatar {
     width: 30%;
 }
 
-.sinopse{
+.sinopse {
     margin-top: 20px;
     padding: 20px;
     display: inline;
     width: 70%;
     float: right;
     text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
     box-sizing: border-box;
 }
 
-p{
-    font-size: 20px;
-    margin-bottom: 0;
-}
 
 /*habilidades*/
 
-.habilidades{
+.habilidades {
     background-color: #444444;
     color: white;
     padding: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
 }
 
-.tecnologia{
-    
+.tecnologia {
     width: 33.3%;
     display: inline-block;
-    
+
 }
 
-.h3habilidades{
+.h3habilidades {
     margin: 0%;
     font-size: 30px;
     position: relative;
     top: 20px;
 }
 
-.icone-tec{
+.icone-tec {
     width: 70%;
     display: block;
     margin: auto;
-   
+
 }
 
-.icone-check{
+.icone-check {
     width: 20%;
     display: block;
     margin: auto;
     position: relative;
     bottom: 20px;
-    
+
+}
+
+/*Trabalhos*/
+
+.trabalhos{
+    padding: 15px;
+    background-color: #212121;
+    color: white;
+    text-align: center;
+}
+
+#avatar-pisca{
+    display: block;
+    margin: auto;
+    width: 25%;
+
 }
 
 /*MEDIAS =====================================================*/
 
 @media screen and (max-width: 1000px){
 
-    #avatar{
-        width: 30%;
+    #avatar {
         display: block;
         float: none;
         margin: auto;
     }
 
-    .sinopse{
+    .sinopse {
         float: none;
-        text-align: center;  
+        text-align: center;
     }
 
-    .h3habilidades{
-    font-size: 25px; 
+    .h3habilidades {
+        font-size: 25px;
+    }
+
 }
 
-@media screen and (max-width: 800px){
+    @media screen and (max-width: 800px) {
 
-    .apresentação{
-        padding: 15PX;
+        .apresentação {
+            padding: 15PX;
+        }
+
+        #avatar {
+            display: block;
+            float: none;
+            margin: auto;
+        }
+
+        .sinopse {
+            float: none;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0%;
+        }
+
+        .h3habilidades {
+            font-size: 20px;
+            position: relative;
+            top: 10px;
+        }
+
+        .icone-check {
+            width: 20%;
+            position: relative;
+            bottom: 10px;
+        }
+
+        #avatar-pisca{
+            width: 35%;
+        }
+
     }
 
-    #avatar{
-        width: 30%;
-        display: block;
-        float: none;
-        margin: auto;
-    }
+    @media screen and (max-width: 500px) {
 
-    .sinopse{
-        float: none;
-        text-align: center;  
-    }
+        #logo {
+            width: 70%;
+        }
 
-    h1{
-        margin: 0%;
-    }
+        #avatar {
+            width: 60%;
+        }
 
-    .h3habilidades{
-        font-size: 20px;
-        position: relative;
-        top: 10px;
-    }
+        h1 {
+            font-size: 20px;
+        }
 
-    .icone-check{
-        width: 20%;
-        position: relative;
-        bottom: 10px;
-        
-    }
-    
-}
+        h2 {
+            font-size: 18px;
+        }
 
-@media screen and (max-width: 500px){
+        p {
+            font-size: 17px;
+        }
 
-    #logo{
-        width: 70%;
-    }
+        .tecnologia {
+            display: block;
+            margin: 0 auto 5px;
+        }
 
-    #avatar{
-        width: 60%;
-    }
-    
-    h1{
-        font-size: 20px;
-    }
+        .h3habilidades {
+            font-size: 15px;
+        }
 
-    h2{
-        font-size: 18px;
-    }
+        .icone-tec {
+            width: 100%;
+        }
 
-    p{
-        font-size: 17px;
+        #avatar-pisca{
+            width: 40%;
+        }
     }
-
-    .tecnologia{
-        display: block;
-        margin: 0 auto 5px;
-    }
-
-    .h3habilidades{
-        font-size: 15px;
-    }
-
-    .icone-tec{
-        width: 100%;
-       
-    }
-}
