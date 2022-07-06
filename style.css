@@ -125,6 +125,37 @@ main {
 
 }
 
+/*Contatos*/
+
+.contatos{
+    padding: 15px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+a{  
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin: 0px 40px;
+    font-size: 20px;
+ 
+}
+
+.icone-contato{
+    width: 40px;
+    padding-right: 5px;
+    position: relative;
+    top: 12px;
+}
+
+#registro{
+    margin: 50px 0 20px 0;
+    font-weight: normal;
+    color: #444444;
+}
+
 /*MEDIAS =====================================================*/
 
 @media screen and (max-width: 1000px){
