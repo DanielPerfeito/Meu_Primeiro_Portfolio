@@ -140,7 +140,6 @@ a{
     text-decoration: none;
     margin: 0px 40px;
     font-size: 20px;
- 
 }
 
 .icone-contato{
@@ -214,6 +213,19 @@ a{
             width: 35%;
         }
 
+        a{  
+            display: block;
+            margin: 0px 40px;
+            font-size: 18px;
+        }
+
+        .icone-contato{
+            margin-bottom: 5px;
+            width: 30px;
+            padding-right: 10px;
+            position: relative;
+            top: 14px;
+        }
     }
 
     @media screen and (max-width: 500px) {
@@ -254,4 +266,28 @@ a{
         #avatar-pisca{
             width: 40%;
         }
+
+        a{  
+            display: block;
+            margin: 0px 40px;
+            font-size: 16px;
+        }
+    }
+
+    @media screen and (max-width: 350px) {
+
+        a{  
+            display: block;
+            margin: 0px 40px;
+            font-size: 14px;
+        }
+
+        .icone-contato{
+            margin-bottom: 5px;
+            width: 20px;
+            padding-right: 10px;
+            position: relative;
+            top: 11px;
+        }
+       
     }
