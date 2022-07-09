@@ -4,10 +4,11 @@ body {
     background-image: url(ativos/back-body.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    margin: 0;
-    
+    margin: 0 10px;
+    text-shadow: 2px 2px black;
 }
 
 h1,
@@ -28,13 +29,13 @@ p {
 /*CABEÇALHO ====================================================*/
 
 header {
-    margin:  0 auto 10px;
+    margin: 0 auto 10px;
     background-color: black;
     max-width: 1000px;
     min-width: 280px;
-    border: solid 2px  white;
+    border: solid 2px white;
     border-top: none;
-    border-radius: 00px  00px 30px 30px;
+    border-radius: 00px 00px 30px 30px;
 }
 
 #logo {
@@ -56,18 +57,20 @@ main {
 /*Apresentação*/
 
 .apresentação {
+    color: #ffffff;
     padding: 15px;
-    margin:  0 auto 10px;
-    background: rgba(255, 255, 255, 0.1);
+    margin: 0 auto 10px;
+    background: #ffffff1a;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    border: 1.5px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 30px;
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 }
 
 #avatar {
     width: 30%;
+    filter: drop-shadow(5px 5px 5px #000000);
 }
 
 .sinopse {
@@ -84,12 +87,12 @@ main {
 /*habilidades*/
 
 .habilidades {
-    background-color: #444444;
+    background-image: linear-gradient(to top, #444444, #555555);
     color: white;
     padding: 15px;
-    border: solid 2px white;
+    border: solid 2px #555555;
     border-radius: 30px;
-    margin:  0 auto 10px;
+    margin: 0 auto 10px;
 }
 
 .tecnologia {
@@ -103,12 +106,14 @@ main {
     font-size: 30px;
     position: relative;
     top: 20px;
+    filter: drop-shadow(5px 5px 5px #000000);
 }
 
 .icone-tec {
     width: 70%;
     display: block;
     margin: auto;
+    filter: drop-shadow(5px 5px 5px #000000);
 
 }
 
@@ -118,41 +123,41 @@ main {
     margin: auto;
     position: relative;
     bottom: 20px;
-
+    filter: drop-shadow(5px 5px 5px #000000);
 }
 
 /*Trabalhos*/
 
-.trabalhos{
+.trabalhos {
     padding: 15px;
-    background-color: #212121;
     color: white;
+    background-image: linear-gradient(to top, #212121, #2b2b2b);
     text-align: center;
-    border: solid 2px white;
+    border: solid 2px #2b2b2b;
     border-radius: 30px;
-    margin:  0 auto 10px;
+    margin: 0 auto 10px;
 }
 
-#avatar-pisca{
+#avatar-pisca {
     display: block;
     margin: auto;
     width: 25%;
-
+    filter: drop-shadow(5px 5px 5px #000000);
 }
 
 /*Contatos*/
 
-.contatos{
+.contatos {
     padding: 15px;
-    background-color: black;
+    background-color: #000000;
     color: white;
     text-align: center;
-    border: solid 2px  white;
+    border: solid 2px white;
     border-bottom: none;
     border-radius: 30px 30px 0px 0px;
 }
 
-a{  
+a {
     display: inline-block;
     color: white;
     text-decoration: none;
@@ -160,14 +165,14 @@ a{
     font-size: 20px;
 }
 
-.icone-contato{
+.icone-contato {
     width: 40px;
     padding-right: 5px;
     position: relative;
     top: 12px;
 }
 
-#registro{
+#registro {
     margin: 50px 0 20px 0;
     font-weight: normal;
     color: #444444;
@@ -175,7 +180,7 @@ a{
 
 /*MEDIAS =====================================================*/
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1000px) {
 
     #avatar {
         display: block;
@@ -192,120 +197,128 @@ a{
         font-size: 25px;
     }
 
+    #registro {
+        margin: 40px 0 10px 0;
+    }
+
 }
 
-    @media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
 
-        .apresentação {
-            padding: 15PX;
-        }
-
-        #avatar {
-            display: block;
-            float: none;
-            margin: auto;
-        }
-
-        .sinopse {
-            float: none;
-            text-align: center;
-        }
-
-        h1 {
-            margin: 0%;
-        }
-
-        .h3habilidades {
-            font-size: 20px;
-            position: relative;
-            top: 10px;
-        }
-
-        .icone-check {
-            width: 20%;
-            position: relative;
-            bottom: 10px;
-        }
-
-        #avatar-pisca{
-            width: 35%;
-        }
-
-        a{  
-            display: block;
-            margin: 0px 40px;
-            font-size: 18px;
-        }
-
-        .icone-contato{
-            margin-bottom: 5px;
-            width: 30px;
-            padding-right: 10px;
-            position: relative;
-            top: 14px;
-        }
+    .apresentação {
+        padding: 15PX;
     }
 
-    @media screen and (max-width: 500px) {
-
-        #logo {
-            width: 70%;
-        }
-
-        #avatar {
-            width: 60%;
-        }
-
-        h1 {
-            font-size: 20px;
-        }
-
-        h2 {
-            font-size: 18px;
-        }
-
-        p {
-            font-size: 17px;
-        }
-
-        .tecnologia {
-            display: block;
-            margin: 0 auto 5px;
-        }
-
-        .h3habilidades {
-            font-size: 15px;
-        }
-
-        .icone-tec {
-            width: 100%;
-        }
-
-        #avatar-pisca{
-            width: 40%;
-        }
-
-        a{  
-            display: block;
-            margin: 0px 40px;
-            font-size: 16px;
-        }
+    #avatar {
+        display: block;
+        float: none;
+        margin: auto;
     }
 
-    @media screen and (max-width: 350px) {
-
-        a{  
-            display: block;
-            margin: 0px 40px;
-            font-size: 14px;
-        }
-
-        .icone-contato{
-            margin-bottom: 5px;
-            width: 20px;
-            padding-right: 10px;
-            position: relative;
-            top: 11px;
-        }
-       
+    .sinopse {
+        float: none;
+        text-align: center;
     }
+
+    h1 {
+        margin: 0%;
+    }
+
+    .h3habilidades {
+        font-size: 20px;
+        position: relative;
+        top: 10px;
+    }
+
+    .icone-check {
+        width: 20%;
+        position: relative;
+        bottom: 10px;
+    }
+
+    #avatar-pisca {
+        width: 35%;
+    }
+
+    a {
+        display: block;
+        margin: 0px 40px;
+        font-size: 18px;
+    }
+
+    .icone-contato {
+        margin-bottom: 5px;
+        width: 30px;
+        padding-right: 10px;
+        position: relative;
+        top: 14px;
+    }
+
+    #registro {
+        margin: 30px 0 5px 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    #logo {
+        width: 70%;
+    }
+
+    #avatar {
+        width: 60%;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
+    .tecnologia {
+        display: block;
+        margin: 0 auto 5px;
+    }
+
+    .h3habilidades {
+        font-size: 15px;
+    }
+
+    .icone-tec {
+        width: 100%;
+    }
+
+    #avatar-pisca {
+        width: 40%;
+    }
+
+    a {
+        display: block;
+        margin: 0px 40px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+
+    a {
+        display: block;
+        margin: 0px 40px;
+        font-size: 14px;
+    }
+
+    .icone-contato {
+        margin-bottom: 5px;
+        width: 20px;
+        padding-right: 10px;
+        position: relative;
+        top: 11px;
+    }
+
+}
