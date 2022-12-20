@@ -1,6 +1,6 @@
-# Meu Site 👨🏽‍💻
-Um Site criado por mim para divulgar meus trabalhos e projetos como Desenvolvedor Web, utilizado HTML, CSS e futuramente outras tecnologias. 🚀
+# Meu primeiro portifólio 👨🏽‍💻
+Criado ainda no inicio dos meus estudos, utilizado HTML, CSS. 🚀
 
-Fique de Olho! 😉
+Link: <https://danielperfeito.github.io/Meu_Primeiro_Portifolio/>  🌐
 
-Link: <https://danielperfeito.dev.br/>  🌐
+Link do meu portífólio Oficial: <https://danielperfeito.dev.br/> 🚀
